@@ -2,7 +2,7 @@
 A central repository for holding all uk.co.lukestevens Packages
 
 ## Setting up a project to publish to package repository
-- Add `mavenpublish.yml` to the `/.github/workflows` directory in your repo, copying from the example in this repository
+- Copy the `.github` and `.m2` directories to your project
 - Add `distributionManagement` details to `pom.xml` (see below)
 
 ```xml
